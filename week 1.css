@@ -192,6 +192,7 @@ p {
     font-size: 36px;
 }
 
+/* Div class footer was changed to footer element selector to fit semantics.*/
 footer {
     padding: 30px;
     clear: both;
