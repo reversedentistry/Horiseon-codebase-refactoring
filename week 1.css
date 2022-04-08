@@ -15,16 +15,19 @@ header {
     color: #ffffff;
 }
 
+/*Div classes have been replaced with semantic elements, so class selectors like .header have been replaced with the appropriate element selector. */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Original code marked the "seo" with span. Changed to "mark" semantic element instead. Since "mark" defaults to a highlighted background, I changed to match the background of the header element. */
 header h1 .seo {
     color: #d9dcd6;
     background-color: #2a607c;
 }
 
+/*Div nav class was also removed to be replaced with semantic nav element.*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
