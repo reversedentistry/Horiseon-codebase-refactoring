@@ -90,6 +90,7 @@ p {
     background-color: #2589bd;
 }
 
+/* These three class selectors for images in the sidebar had identical styles - as such, they were consolidated into one common group to remove redundancy. */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
